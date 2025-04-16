@@ -11,9 +11,10 @@ const SimpleForm = () => {
         <div>
             <form onSubmit={handleSubmit}>
                 <input type="text" placeholder='Enter your name' name='name'/>
+                <br />
                 <input type="email" placeholder='Enter Email' name='email'/>
                 <br />
-                <button>Submit</button>
+                <input type="submit" value="Submit" />
             </form>
         </div>
     );
